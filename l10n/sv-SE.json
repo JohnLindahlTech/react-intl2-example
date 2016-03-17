@@ -1,0 +1,5 @@
+{
+  "PREDEFINED": "Jag är fördefinierad",
+  "INLINE":"Jag är skriven i koden",
+  "VARIABLE": "Jag har en variabel: {name}"
+}
