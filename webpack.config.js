@@ -1,12 +1,5 @@
-const path = require('path');
-
 module.exports = {
-  //context: path.join(__dirname, 'src/'),
-  name: 'client',
-  target: 'web',
-  cache: true,
-  debug: true,
-  entry: './src/app',
+  entry: './src/app.jsx',
   output: {
     filename: 'bundle.js',
     path: './dist',
@@ -28,10 +21,5 @@ module.exports = {
         loader: 'json',
       },
     ],
-  },
-  plugins:[
-  ],
-  resolve: {
-    extensions: ['', '.js', '.json', '.jsx'],
   },
 };
