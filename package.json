@@ -4,8 +4,12 @@
   "description": "An example of how to do react-intl@2.0.x",
   "main": "index.js",
   "scripts": {
+    "prestart:dev": "http-server l10n -p 8081 &",
     "start:dev": "webpack-dev-server --conent-base ./src --config webpack.config.js",
-    "prebuild": "cp index.html ./dist/index.html",
+    "create:dist": "mkdir -p dist",
+    "copy:index": "cp index.html ./dist/index.html",
+    "copy:l10n": "cp -r l10n ./dist/l10n",
+    "prebuild": "npm run create:dist && npm run copy:index && npm run copy:l10n",
     "build": "webpack --config webpack.config.js",
     "start": "http-server dist"
   },

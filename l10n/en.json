@@ -1,0 +1,5 @@
+{
+  "PREDEFINED": "I am predefined.",
+  "INLINE":"I am written inline.",
+  "VARIABLE": "I have a variable: {name}"
+}
