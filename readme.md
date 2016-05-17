@@ -12,3 +12,5 @@
 * `npm run build` to compile the bundle.js
 * `npm run start` to serve the `./dist` directory.
 
+## Dynamic languages
+See the dynamic-langs branch for a small concept of how to dynamically load more languages at runtime, if you don't want to include them all to your webpack-bundle at build-time.
