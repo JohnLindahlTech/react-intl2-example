@@ -13,4 +13,4 @@
 * `npm run start` to serve the `./dist` directory.
 
 ## Dynamic languages
-See the dynamic-langs branch for a small concept of how to dynamically load more languages at runtime, if you don't want to include them all to your webpack-bundle at build-time.
+See the [dynamic-langs](https://github.com/JohnPhoto/react-intl2-example/tree/dynamic-langs) branch for a small concept of how to dynamically load more languages at runtime, if you don't want to include them all to your webpack-bundle at build-time.
