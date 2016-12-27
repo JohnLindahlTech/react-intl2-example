@@ -4,7 +4,6 @@
   "description": "An example of how to do react-intl@2.0.x",
   "main": "index.js",
   "scripts": {
-    "prestart:dev": "http-server l10n -p 8081 &",
     "start:dev": "webpack-dev-server --conent-base ./src --config webpack.config.js",
     "create:dist": "mkdir -p dist",
     "copy:index": "cp index.html ./dist/index.html",
@@ -23,8 +22,8 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.9.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "react-intl": "^2.0.0-rc-1"
   },
   "devDependencies": {

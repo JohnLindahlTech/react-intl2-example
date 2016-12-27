@@ -1,0 +1,22 @@
+[
+  {
+    "id": "PREDEFINED",
+    "description": "This translation is defined in a defineMessage.",
+    "defaultMessage": "Hello I am predefined"
+  },
+  {
+    "id": "INLINE",
+    "description": "This translation is created inline of the code",
+    "defaultMessage": "Oh it's you again, I am defined inline of a Formatted message!"
+  },
+  {
+    "id": "VARIABLE",
+    "description": "A translation with a variable",
+    "defaultMessage": "This guy has a variable embedded: {name}"
+  },
+  {
+    "id": "NOT_EXISTING",
+    "description": "This is an example of some translation which is missed in the process",
+    "defaultMessage": "This is not yet translated"
+  }
+]

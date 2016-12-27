@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage, defineMessages } from 'react-intl';
+import { FormattedMessage, defineMessages, FormattedNumber } from 'react-intl';
 const TranslatedComponent = (props) => {
 
   const translations = defineMessages({
@@ -12,6 +12,9 @@ const TranslatedComponent = (props) => {
 
   return (
       <div>
+        <p>
+          <FormattedNumber value={123456.789} />
+        </p>
         <p>
           <FormattedMessage
             {...translations.predefinedTranslation}

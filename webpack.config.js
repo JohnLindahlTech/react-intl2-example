@@ -23,10 +23,5 @@ module.exports = {
     ],
   },
   devServer: {
-    proxy:{
-      'l10n/*': {
-        target: 'http://localhost:8081'
-      }
-    }
   }
 };
